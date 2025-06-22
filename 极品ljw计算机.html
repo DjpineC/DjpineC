@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .png {
+        margin: 0 auto;
+        width: 60vw;
+    }
+</style>
+
+<body>
+    <div class="png">
+        <h1>极品计算机</h1>
+        <form action="" method="get">
+            <input type="text" name="q" id="a" onchange="search()" placeholder="需要相加的数之一">
+            <button type="submit">查询</button>
+        </form>
+        </span>
+        <form action="" method="get">
+            <input type="text" name="q" id="b" onchange="search()" placeholder="需要相加的数之二">
+            <button type="submit">查询</button>
+        </form>
+        </span>
+        <h1>结果:</h1>
+        <h1 id="666"></h1>
+    </div>
+    <script>
+        function search(){ var aa = document.getElementById("a").value;
+        var bb = document.getElementById("b").value;
+        if (aa > 0) {
+            document.getElementById("666").innerText =parseInt(aa)+parseInt(bb);
+        }}
+       
+    </script>
+</body>
+
+</html>

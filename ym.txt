@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            /* 添加底部内边距防止内容被遮挡 */
+            padding-bottom: 100px;
+        }
+        
+        .fixed-bottom-left {
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            z-index: -1; /* 设置为负值确保在最底层 */
+
+        }
+        
+        .fixed-bottom-left img {
+            max-width: 250px; /* 控制图片大小 */
+            height: auto;
+        }
+</style>
+<style>
+    .png{
+        margin: 0 auto;
+        width: 60vw;
+    }
+</style>
+<style>
+    .ui{
+        display:flex;
+        background-color: black;
+    }
+    .ui>li{
+        display: inline;
+        color: #b0b0b0;
+    }
+    .fg{
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 27px;
+        color:#b0b0b0;
+    }
+    .fg>a{
+        color: #b0b0b0;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 27px;
+        color:#b0b0b0;
+    }
+    .fg>a:hover{
+        color:aliceblue;
+        font-size: 27.5px;
+    }
+</style>
+<style>
+    .ui2li{
+        display: flex;
+    }
+    .ui2li>li{
+        display: inline;
+        color:black;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 35px;
+        line-height: 69px;
+    }
+    .ui2li>a{
+        color: black;
+    }
+</style>
+</head>
+<body>
+<div class="fixed-bottom-left">
+        <img src="./IMG_2547.png" alt="左下角固定图片">
+</div>
+<div class="fg">    
+    <ul class="ui">
+        <li class="fg"><a class="ljwsd" href="./无标题.png">ljw商店</a></li>
+        <span class="fg">|</span>
+        <li class="fg" title="来自史浩凯"><a href="./贪吃蛇.html">小游戏</a></li>
+        <span class="fg">|</span>
+        <li class="fg"><a href="./ym.txt">源码</a></li>
+        <span class="fg">|</span>
+        <li class="fg"  title="点击进入"><a href="./html.html">ljw官网</a></li> 
+        <span class="fg">|</span>
+        <li class="fg" title="蛊真人在线阅读"><a href="./蛊真人.txt">魔道传承</a></li>
+        <span class="fg">|</span>
+        <li class="fg" title="测试"><a href="./tp.html">素材查看</a></li>
+        <li class="fg" style="color:darkorange"><a href="./dl.html"  style="color:darkorange">登录</a></li>
+    </ul>
+</div>
+<style>
+    .cx{
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 35px;
+        line-height: 60px;
+    }
+</style>
+<ul class="ui2">
+    <div class="ui2li">
+    <li><img src="./91.png" style="height: 98px;"></li>
+    <li>嘉伟传媒</li>
+    <li><a href="./ljwrwz.txt">嘉伟人物传</a></li>
+    <li>嘉伟创业史</li>
+    <li>关于嘉伟</li>
+    <li>jw天堂</li>
+    <li title="10086">联系我们</li>
+    <li>小花帮搜🔍 </li>
+    <span class="cx"><form action="/search" method="get">
+        <input type="text" name="q" placeholder="想让小花搜...">
+        <button type="submit">查询</button>
+    </form></span>
+    </div>   
+</ul>
+<div class="png">
+<img title="who is xiaohua?" src="./IMG_2539.jpeg">
+<h1>永远相信美好的事情即将发生</h1>
+<h2>小花科技正式成立于2020年4月，是一家以91短视频、智能硬件和数字内容生态为核心的互联网公司。创业仅3年时间，小花的年收入就突破了十亿元人民币。截止2023年，小花的业务已覆盖全国30多个省市自治区。</h2>
+<img src="./IMG_2543.jpeg">
+<h1>小花的使命是，始终坚持做"打动人心、内容优质"的好产品，让每个用户都能享受数字内容带来的快乐生活。</h1>
+<h2>"和创作者交朋友，做年轻人心中最酷的内容平台"的愿景驱动着我们不断创新，追求极致的内容体验，成就了一个快速成长的数字内容生态。目前，小花旗下"91短视频"是中国领先的短视频平台之一，在多个垂直内容领域保持领先地位。通过独特的"创作者合伙人计划"，小花扶持、带动了数千名优质内容创作者，同时建成了连接超过5000万月活用户的内容生态系统。</h2>
+<img src="./IMG_2545.jpeg">
+<h1>2023年9月1日，小花科技成功完成B轮融资，估值达到50亿元人民币，创造了内容创业领域的新纪录。
+</h1>
+<img src="./index_03.jpg">
+<h1>感谢您关注小花科技，和我们一起投身于创造数字内容新生态，用创意丰富大众娱乐生活的美好事业。许商业以温度，许科技以创意，许用户以欢乐，我们的征途是星辰大海，请和我们一起，永远相信美好的事情即将发生。</h1>
+</div>
+<style>
+    .lb{
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        color: darkgrey;
+        background-color: black;
+    }
+</style>
+<div   class="lb" style=" margin: 0 auto;
+width: 60vw;">
+<table class="lb">
+    <thead>
+        <tr>
+            <th>
+                来自小花科技
+            </th>
+            
+            <th>
+                ljw提供支持
+            </th>
+        </tr>
+
+    </thead>
+</table>
+<br>
+<tbody>
+    <tr>
+        <th>
+            小花保持所有权
+        </th>
+        <th>
+            @ljw.vip 2025
+        </th>
+    </tr>
+</tbody>
+</div>
+</body>
+</html>
